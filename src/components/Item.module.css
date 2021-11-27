@@ -1,0 +1,43 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.6rem;
+    border-radius: 0.4rem;
+}
+
+.item:hover{
+    background-color: #f1f5f8;
+}
+
+.text{
+    color: #102a42;
+    font-size: 1.2rem;
+}
+
+.item:hover .text{
+    color: #617d98;
+}
+
+.edit{
+    color: #6be675;
+    cursor: pointer;
+    margin-right: 0.6rem;
+}
+
+.edit:hover{
+    color: #25bb32;
+}
+
+.delete{
+    color: #e66b6b;
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: #bb2525;
+}
+
+.item, .edit, .delete, .text{
+    transition: all 0.2s ease-in-out;
+}

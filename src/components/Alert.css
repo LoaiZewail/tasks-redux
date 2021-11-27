@@ -1,0 +1,15 @@
+.alert{
+    border-radius: 4px;
+    margin: 10px auto;
+    padding:2px 0;
+}
+
+.danger{
+    background-color: #fdadad;
+    color:#8d1f1f;
+}
+
+.success{
+    background-color: #aafbb1;
+    color: #0d5213;
+}
